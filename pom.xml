@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>mssc-beer-order-service-aev</artifactId>
+
+	<parent>
+		<groupId>guru.springframework</groupId>
+		<artifactId>mssc-brewery-bom-aev</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>	
+
+	<name>mssc-beer-order-service-aev</name>
+
+	<description>MSSC Beer Order Service</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-impl</artifactId>
+		</dependency>		
+	</dependencies>
+
+</project>
